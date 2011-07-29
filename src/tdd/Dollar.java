@@ -1,9 +1,11 @@
 package tdd;
 
+/** 2章　オブジェクト */
+/////////////////////////
 public class Dollar {
 
 	public int amount;
-
+	
 	public Dollar(int amount)  {
 		this.amount=amount;
 	}

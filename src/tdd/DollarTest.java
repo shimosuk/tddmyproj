@@ -1,7 +1,8 @@
 package tdd;
 
 import junit.framework.TestCase;
-
+/** 2章　オブジェクト */
+/////////////////////
 public class DollarTest extends TestCase {
 	public void testMultiplication(){
 		Dollar five=new Dollar(5);
