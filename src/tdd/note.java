@@ -1,7 +1,7 @@
 package tdd;
 
 public class note {
-	//操作
+	//add commit
 	/**
 	 * tgit add .
 	 * 
@@ -9,6 +9,14 @@ public class note {
 	 * 
 	 * tgit commit -m "Comments" ※if you want to override,you write
 	 * "...commit --amound -m..."
+	 * 
+	 */
+	// push is  mouse action.
+	// delet
+	/**
+	 * tgit rm src/..(pass)./~.java
+	 *(tgit status)
+	 * ...commit..push..
 	 */
 	
 	//Tortoisegit設定(環境変数)
@@ -19,7 +27,10 @@ public class note {
 	 * <コマンド プロンプト操作>
 	 * パスを確認　echo "%HOME%"
 	 * 中身を確認 dir "%HOME%"
+	 * 		".gitconfig"がおいてあるパスが出てくればOK
 	 * 
+	 * あとはadd commit push 
+	 * 	githubで確認
 	 * 
 	 */
 }

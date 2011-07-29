@@ -1,7 +1,9 @@
 package tdd;
 
 import junit.framework.TestCase;
-/** 2章　オブジェクト */
+
+/** 3章　等価性 */
+
 public class DollarTest extends TestCase {
 	public void testMultiplication(){
 		Dollar five=new Dollar(5);
@@ -9,6 +11,11 @@ public class DollarTest extends TestCase {
 		assertEquals(10,product.amount);
 		product = five.times(3);
 		assertEquals(15,product.amount);
+	}
+	
+	public void testEquality(){
+		assertTrue(new Dollar(5).equals(new Dollar(5)));
+		assertFalse(new Dollar(5).equals(new Dollar(6)));
 	}
 
 }
