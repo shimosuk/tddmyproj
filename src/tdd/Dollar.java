@@ -1,7 +1,6 @@
 package tdd;
 
 /** 2章　オブジェクト */
-/////////////////////////
 public class Dollar {
 
 	public int amount;
