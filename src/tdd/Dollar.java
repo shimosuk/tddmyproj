@@ -1,10 +1,10 @@
 package tdd;
 
-/** 3章　等価性 */
+/** 4章　プライベート化 */
 
 public class Dollar {
 
-	public int amount;
+	private int amount;
 	
 	public Dollar(int amount)  {
 		this.amount=amount;

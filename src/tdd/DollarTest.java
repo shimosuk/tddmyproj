@@ -2,15 +2,13 @@ package tdd;
 
 import junit.framework.TestCase;
 
-/** 3章　等価性 */
-
+/** 4章　プライベート化 */
+/* commit回数を増やすことを意識 */
 public class DollarTest extends TestCase {
 	public void testMultiplication(){
 		Dollar five=new Dollar(5);
-		Dollar product=five.times(2);
-		assertEquals(10,product.amount);
-		product = five.times(3);
-		assertEquals(15,product.amount);
+		assertEquals(new Dollar(10),five.times(2));
+		assertEquals(new Dollar(15),five.times(3));
 	}
 	
 	public void testEquality(){
@@ -18,4 +16,5 @@ public class DollarTest extends TestCase {
 		assertFalse(new Dollar(5).equals(new Dollar(6)));
 	}
 
+	
 }
