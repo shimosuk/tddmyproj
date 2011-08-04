@@ -1,6 +1,6 @@
 package tdd;
 
-/** 4章　プライベート化 */
+/** 5章　フランク */
 
 public class Dollar {
 
