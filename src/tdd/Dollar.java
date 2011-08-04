@@ -1,8 +1,8 @@
 package tdd;
 
-/** 5章　フランク */
+/** 6章　Money */
 
-public class Dollar {
+public class Dollar extends Money{
 
 	private int amount;
 	

@@ -2,7 +2,7 @@ package tdd;
 
 import junit.framework.TestCase;
 
-/** 5章　フランク */
+/** 6章　Money */
 /* commit回数を増やすことを意識 */
 public class DollarTest extends TestCase {
 	public void testMultiplication(){
