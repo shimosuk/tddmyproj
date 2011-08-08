@@ -1,7 +1,5 @@
 package tdd;
 
-/** 6Í@Money */
-
 public class Franc extends Money {
 
 	public Franc(int amount) {
