@@ -2,10 +2,10 @@ package tdd;
 
 /** 6Í@Money */
 
-public class Dollar extends Money{
-	
-	public Dollar(int amount)  {
-		this.amount=amount;
+public class Dollar extends Money {
+
+	public Dollar(int amount) {
+		this.amount = amount;
 	}
 
 	public Dollar times(int multiplier) {
