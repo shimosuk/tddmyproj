@@ -2,9 +2,9 @@ package tdd;
 
 public class Dollar extends Money {
 
-	public Dollar(int amount) {
+	public Dollar(int amount,String currency) {
 		this.amount = amount;
-		currency = "USD";
+		this.currency = "USD";
 	}
 
 	public Money times(int multiplier) {
