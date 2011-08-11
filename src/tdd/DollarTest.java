@@ -2,7 +2,7 @@ package tdd;
 
 import junit.framework.TestCase;
 
-/** 8Í@create object */
+/** 9Í@ */
 /* commit‰ñ”‚ğ‘‚â‚·‚±‚Æ‚ğˆÓ¯ */
 public class DollarTest extends TestCase {
 	public void testMultiplication() {
@@ -24,6 +24,11 @@ public class DollarTest extends TestCase {
 		assertFalse(Money.franc(5).equals(Money.franc(6)));
 
 		assertFalse(Money.franc(5).equals(Money.dollar(5)));
+	}
+	
+	public void testCurrency(){
+		assertEquals("USD", Money.dollar(1).currency());
+		assertEquals("CHF", Money.franc(1).currency());
 	}
 
 }
