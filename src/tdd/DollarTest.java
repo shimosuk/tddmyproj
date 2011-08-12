@@ -3,7 +3,7 @@ package tdd;
 import junit.framework.TestCase;
 
 /** 9Í@ */
-/* commit‰ñ”‚ğ‘‚â‚·‚±‚Æ‚ğˆÓ¯ */
+
 public class DollarTest extends TestCase {
 	public void testMultiplication() {
 		Money five = Money.dollar(5);
