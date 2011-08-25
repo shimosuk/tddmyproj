@@ -4,7 +4,7 @@ import junit.framework.TestCase;
 
 /** 11Í@ */
 
-public class DollarTest extends TestCase {
+public class MoneyTest extends TestCase {
 
     public void testMultiplication() {
         Money five = Money.dollar(5);
