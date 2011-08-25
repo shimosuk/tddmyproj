@@ -2,7 +2,7 @@ package tdd;
 
 import junit.framework.TestCase;
 
-/** 11Í@ -rebase training*/
+/** 11Í@ */
 
 public class DollarTest extends TestCase {
 
