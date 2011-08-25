@@ -1,9 +1,6 @@
 package tdd;
 
 public class Money {
-    Money times(int multiplier) {
-        return null;
-    }
 
     protected int amount;
     protected String currency;
@@ -34,5 +31,9 @@ public class Money {
     /* print err message */
     public String toString() {
         return amount + " " + currency;
+    }
+    
+    Money times(int multiplier) {
+        return new Money(amount * multiplier, currency);
     }
 }
