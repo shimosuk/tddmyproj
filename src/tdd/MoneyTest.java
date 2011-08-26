@@ -23,11 +23,11 @@ public class MoneyTest extends TestCase {
         assertEquals("CHF", Money.franc(1).currency());
     }
 
-    public void testSimpleAddtion(){
+    public void testSimpleAddtion() {
         Money five = Money.dollar(5);
-        Money sum = five.puls(five);
+        Money sum = five.plus(five);
         Bank bank = new Bank();
-        Money reduced = bank.reduce(sum,"USD");
-        assertEquals(Money.dollar(10),reduced);
+        Money reduced = bank.reduce(sum, "USD");
+        assertEquals(Money.dollar(10), reduced);
     }
 }

@@ -32,12 +32,12 @@ public class Money {
     public String toString() {
         return amount + " " + currency;
     }
-    
+
     Money times(int multiplier) {
         return new Money(amount * multiplier, currency);
     }
 
-    public Money puls(Money addend) {
-        return new Money(amount + addend.amount,currency);
+    public Money plus(Money addend) {
+        return new Money(amount + addend.amount, currency);
     }
 }
