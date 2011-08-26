@@ -2,7 +2,7 @@ package tdd;
 
 import junit.framework.TestCase;
 
-/** 11Í@ */
+/** 12Í@ */
 
 public class MoneyTest extends TestCase {
 
