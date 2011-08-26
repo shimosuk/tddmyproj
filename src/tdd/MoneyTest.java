@@ -24,7 +24,10 @@ public class MoneyTest extends TestCase {
     }
 
     public void testSimpleAddtion(){
-        Money sum = Money.dollar(5).puls(Money.dollar(5));
-        assertEquals(Money.dollar(10),sum);
+        Money five = Money.dollar(5);
+        Money sum = five.puls(five);
+        Bank bank = new Bank();
+        Money reduced = bank.reduce(sum,"USD");
+        assertEquals(Money.dollar(10),reduced);
     }
 }
